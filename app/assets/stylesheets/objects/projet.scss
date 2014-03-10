@@ -85,7 +85,20 @@ p.info-tech{
 
 
 
+.chapitre-terre{
+  background-image: image-url('textures/green_cup3.png');
+  padding: 20px 0;
+  h3{
+    margin-top: 60px;
+  }
+  p{
+    font-size: 14px;
+  }
 
+  img{
+    max-width: 100%;
+  }
+}
 
 
 
