@@ -1,0 +1,27 @@
+
+
+
+.bandeau-corail{
+  background-color: #f4665f;  /* #fa6b4c */
+  text-align: center;
+}
+
+.header-xtg{
+  text-align: center;
+  margin-bottom: 20px;
+  
+  h1{
+    margin-top: 20px;
+    font-family: "freight-sans-pro";
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #c8c8c8;
+    img{
+      padding: 0 20px;
+      margin-top: -10px;
+      display: inline-block;
+    }
+  }
+}

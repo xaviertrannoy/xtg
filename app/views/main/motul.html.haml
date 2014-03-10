@@ -1,20 +1,10 @@
 .container
   .row.header-xtg
     .col-md-12
-      = image_tag "xtg/logo-xtg2.png"
-      //%h1 Design graphique - Publications digitales
-
-.container
-  .row.baseline-xtg
-    .col-md-2
-    .col-md-4
-      %p.test1 
+      %h1
         Design graphique
-    .col-md-4
-      %p.test1 
+        = image_tag "xtg/logo-xtg2.png"
         Publication digitale
-    .col-md-2
-
 
 
 .container-full.menu-xtg
@@ -37,7 +27,8 @@
           .titres-menu
             Publications digitales
 
-.container.image-principale-projet-xtg
+
+.container.image-principale
   .row
     .col-md-12
       = image_tag "xtg/main-motul2.jpg"
@@ -47,6 +38,9 @@
         Client : Motul
         <br/>
         Design : Xavier Trannoy
+        <br/>
+        Developpement : Rouge Cardinal
+
     .col-md-8
       %h2 
         Motul
@@ -59,29 +53,42 @@
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 .container
-  .row.suite-fiche
+  .row.surtitre
     .col-md-12
       %h3
         Motul Sport News
 
+.container-full.fond-noir
+  .container
+    .row.chapitre-noir
+      .col-md-8
+        = image_tag "xtg/les-msn.png"
+      .col-md-4
+        %h3 
+          Résultats hebdomadaires
+        %p
+          Chaque semaine, les résultats des coureurs sponsorisés par Motul sont, traduits en 5 langues, illustrés de photos et mis en page. Les news sont diffusées par email, à l'ensemble du réseau Motul. Salariés internationaux, partenaires et afficionados : la grande famille des passionnés de sport mécaniques. Les résultats sont classés et mis à disposition sur une plateforme en ligne.
+    .row.details
+      .col-md-4
+        = image_tag "xtg/msn1.png"
+      .col-md-4
+        = image_tag "xtg/msn2.png"
+      .col-md-4
+        = image_tag "xtg/msn3.png"
+
 .container
-  .row.details-xtg
-    .col-md-8
-      = image_tag "xtg/msn.jpg"
+  .row.surtitre
+    .col-md-12
+      %h3
+        Web
+
+  .row.chapitre-blanc
     .col-md-4
-      %h2 
-        Résultats hebdomadaires
+      %h3 
+        Homepage & Fanzone
       %p
         Chaque semaine, les résultats des coureurs sponsorisés par Motul sont, traduits en 5 langues, illustrés de photos et mis en page. Les news sont diffusées par email, à l'ensemble du réseau Motul. Salariés internationaux, partenaires et afficionados : la grande famille des passionnés de sport mécaniques. Les résultats sont classés et mis à disposition sur une plateforme en ligne
-  .row.detail-carre
-    .col-md-4
-      = image_tag "xtg/msn1.png"
-    .col-md-4
-      = image_tag "xtg/msn2.png"
-    .col-md-4
-      = image_tag "xtg/msn3.png"
-
-
-
+    .col-md-8
+      = image_tag "xtg/motul-homepage.png";
 
 
