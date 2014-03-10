@@ -35,18 +35,22 @@ $police-sans-serif: "adelle-sans", serif;
 .header-xtg{
   text-align: center;
   margin-bottom: 20px;
-  img{
-    margin-top: 20px;
-  }
+  
   h1{
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: "adelle-sans";
     font-weight: 300;
     font-style: normal;
     text-transform: uppercase;
     color: #c8C8C8;
     letter-spacing: 2px;
+    img{
+      padding: 0 20px;
+      margin-top: -10px;
+      display: inline-block;
+      // vertical-align: middle;
+    }
   }
 }
 
