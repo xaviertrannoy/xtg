@@ -6,5 +6,6 @@ Xtg::Application.routes.draw do
   match 'projets/ppr', to: 'main#ppr', via: :get, as: 'ppr'
   match 'projets/histoire-de-france', to: 'main#histoire-de-france', via: :get, as: 'histoire_de_france'
   match 'projets/phb-conseil', to: 'main#phb-conseil', via: :get, as: 'phb_conseil'
+  match 'projets/anissakhel', to: 'main#anissakhel', via: :get, as: 'anissakhel'
 
 end
