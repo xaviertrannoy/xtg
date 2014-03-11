@@ -154,7 +154,6 @@ p.info-tech{
 }
 
 
-
 .terre-battue{
   margin-top: 60px;
   background-image: image-url('textures/green_cup3.png');
@@ -170,9 +169,6 @@ p.info-tech{
     max-width: 100%;
   }
 }
-
-
-
 
 
 .mur-gris{
@@ -193,7 +189,21 @@ p.info-tech{
 
 }
 
+.fond-w{
+  margin-top: 60px;
+  background-image: image-url('textures/concrete_wall3.png');
+  padding: 20px 0;
+  h3{
+    margin-top: 60px;
+  }
+  p{
+    font-size: 14px;
+  }
 
+  img{
+    max-width: 100%;
+  }
+}
 
 
 
