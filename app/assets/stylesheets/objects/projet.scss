@@ -30,7 +30,15 @@ p.info-tech{
     text-transform: uppercase;
     letter-spacing: 2px;
   }
+  .blanc{
+    color: #fff;
+    margin-top: 0px;
+  }
 }
+
+
+
+
 
 .details{
   margin-top: 20px;
@@ -41,32 +49,36 @@ p.info-tech{
 }
 
 .chapitre-blanc{
-  margin-top: 20px;
+  margin: 20px 0px;
   img{
     max-width: 100%;
+    //margin: 20px;
+  }
+  h3{
+    margin-top: 60px;
   }
 }
 
 .fond-noir{
   background-image: image-url('textures/rubber_grip2.png');
   padding: 20px 0;
-  h3{
-    margin-top: 40px;
-    color: #fff;
-  }
-  p{
-    color: #aaa;
-    font-size: 14px;
-  }
-
-  .chapitre-noir{
-    img{
-      max-width: 100%;
-    }
+  img{
+    max-width: 100%;
   }
 }
 
 
+
+.textes-blancs{
+  h3{
+    margin-top: 60px;
+    color: #fff;
+  }
+  p{
+    color: #bbb;
+    font-size: 14px;
+  }
+}
 
 .chapitre-bois{
   background-image: image-url('textures/natural_paper2.jpg');
@@ -83,9 +95,22 @@ p.info-tech{
   }
 }
 
+.legendes-blanches{
+  text-align: center;
+  margin-top: 20px;
+  h4{
+    font-family: "proxima-nova";
+    font-size: 12px;
+    //text-transform: uppercase;
+    color: #b78c78;
+    letter-spacing: 1px;
+  }
+}
 
 
-.chapitre-terre{
+
+.terre-battue{
+  margin-top: 60px;
   background-image: image-url('textures/green_cup3.png');
   padding: 20px 0;
   h3{
@@ -101,7 +126,23 @@ p.info-tech{
 }
 
 
+.mur-gris{
+  margin-top: 40px;
+  background-image: image-url('textures/sandpaper.png');
+  padding: 20px 0;
+  h3{
+    margin-top: 60px;
+  }
+  p{
+    font-size: 14px;
+  }
+  img{
+    margin-top: 20px;
+    text-align: center;
+    max-width: 100%;
+  }
 
+}
 
 
 
