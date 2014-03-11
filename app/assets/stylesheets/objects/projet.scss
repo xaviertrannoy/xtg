@@ -82,7 +82,7 @@ p.info-tech{
     padding-top: 40px;
     font-family: "proxima-nova";
     font-weight: 100;
-    font-size: 20px;
+    font-size: 24px;
     max-width: 80%;
   }
 }
@@ -96,11 +96,20 @@ p.info-tech{
   p{
     font-size: 14px;
   }
-
+  p.exergue{
+    padding-top: 40px;
+    font-family: "proxima-nova";
+    font-weight: 100;
+    font-size: 30px;
+    max-width: 80%;
+  }
   img{
     max-width: 100%;
   }
 }
+
+
+
 
 .legendes-blanches{
   text-align: center;
