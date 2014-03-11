@@ -76,10 +76,15 @@ p.info-tech{
   img{
     max-width: 100%;
   }
-
 }
 
-
+.fond-fsjd{
+  background-image: image-url('textures/fake_brick4.png');
+  padding: 20px 0;
+  img{
+    max-width: 100%;
+  }
+}
 
 
 .textes-blancs{
@@ -90,6 +95,18 @@ p.info-tech{
   p{
     color: #bbb;
     font-size: 14px;
+  }
+  p.rouge{
+    color: #fe7581;
+    font-size: 14px;
+  }
+  p.exergue-rouge{
+    padding-top: 40px;
+    font-family: "proxima-nova";
+    font-weight: 100;
+    font-size: 24px;
+    max-width: 80%;
+    color: #fe7581;
   }
   p.exergue{
     padding-top: 40px;
