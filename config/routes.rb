@@ -9,5 +9,7 @@ Xtg::Application.routes.draw do
   match 'projets/anissakhel', to: 'main#anissakhel', via: :get, as: 'anissakhel'
   match 'projets/fondation-saint-jean-de-dieu', to: 'main#fondation-saint-jean-de-dieu', via: :get, as: 'fondation_saint_jean_de_dieu'
   match 'projets/magazine-w', to: 'main#magazine-w', via: :get, as: 'magazine_w'
+  match '/accueil', to: 'main#accueil', via: :get, as: 'accueil'
+
 
 end

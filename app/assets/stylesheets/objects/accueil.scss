@@ -1,0 +1,93 @@
+
+
+.galerie{
+  margin-top: 10px;
+  background-image: image-url('textures/fake_brick.png');
+  //background-image:linear-gradient(#7bdac3, #c2ead6);
+  //background-image:linear-gradient(#fc947e, #f7b0a1);
+  //background-image:linear-gradient(#002d66, #00469e);
+  height: 320px;
+
+  .elements-galerie{
+    text-align: center;
+    img{
+      width: 16px;
+      vertical-align: middle;
+      margin-top: 140px;
+    }
+  }
+}
+
+
+.pushs{
+  margin-top: 20px;
+  text-align: center;
+  h2{
+    padding-top: 20px;
+    font-family: "proxima-nova";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+  }
+  p{
+
+  }
+}
+
+
+.fond-accueil{
+  padding-top: 20px;
+  background-color: #eee;
+  //background-image: image-url('textures/fake_brick3.png');
+}
+
+
+.fleche{
+  text-align: center;
+  margin-top: -20px;
+}
+
+
+.surtitre-travaux{
+  margin-top: 60px;
+  text-align: center;
+  p{
+    font-family: "proxima-nova";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+}
+
+
+
+.cases-accueil{
+  padding: 15px 0px;
+  text-align: center;
+  img{
+    max-width: 100%;
+  }
+
+  .case{
+    //margin: 20px 0px;
+    background-color: #fff;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    img{
+      text-align: center;
+      max-width: 100%;
+    }
+    h2.nom-projet{
+      font-family: "proxima-nova";
+      font-weight: 300;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }  
+}
+
+
